@@ -20,7 +20,7 @@ const ImageGalleryComponent = ({ category, searchQuery }) => {
       filteredImages = filteredImages.filter(image =>
         image.designName.toLowerCase().includes(lowerCaseQuery) ||
         image.designerName.toLowerCase().includes(lowerCaseQuery) ||
-        image.tags.some(tag => typeof tag === 'string' && tag.toLowerCase().includes(lowerCaseQuery)) ||
+        image.tags.some(tag =>tag.toLowerCase().includes(lowerCaseQuery)) ||
         image.categories.some(cat => cat.toLowerCase().includes(lowerCaseQuery)) ||
         image.colors.some(color => color.toLowerCase().includes(lowerCaseQuery))
       );
