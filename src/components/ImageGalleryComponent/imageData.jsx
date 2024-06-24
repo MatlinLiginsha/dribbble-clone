@@ -3,7 +3,7 @@ import img1 from '../../assets/images/image1.jpg'
 const imageData = [
   {
     id: 1,
-    src: img1,
+    src: 'img1',
     alt: 'Design 1',
     designName: 'Luncheonette Food Packaging Branding',
     designerName: 'Beth Mathews',
