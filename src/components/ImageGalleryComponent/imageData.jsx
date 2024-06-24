@@ -1,7 +1,7 @@
 const imageData = [
   {
     id: 1,
-    src: './src/assets/images/image1.jpg',
+    src: '../src/assets/images/image1.jpg',
     alt: 'Design 1',
     designName: 'Luncheonette Food Packaging Branding',
     designerName: 'Beth Mathews',
@@ -13,7 +13,7 @@ const imageData = [
   },
   {
     id: 2,
-    src: './src/assets/images/image2.png',
+    src: '../src/assets/images/image2.png',
     alt: 'Design 2',
     designName: 'Simms Fishing Apparel Design',
     designerName: 'Kevin Kronebruger',
@@ -25,7 +25,7 @@ const imageData = [
   },
   {
     id: 3,
-    src: './src/assets/images/image3.png',
+    src: '../src/assets/images/image3.png',
     alt: 'Design 3',
     designName: 'Girl Illustration',
     designerName: 'Illustration Eonni',
@@ -37,7 +37,7 @@ const imageData = [
   },
   {
     id: 4,
-    src: './src/assets/images/image4.png',
+    src: '../src/assets/images/image4.png',
     alt: 'Design 4',
     designName: 'Heart of Africa',
     designerName: 'Folio Illustration Agency',
@@ -49,7 +49,7 @@ const imageData = [
   },
   {
     id: 5,
-    src: './src/assets/images/image5.png',
+    src: '../src/assets/images/image5.png',
     alt: 'Design 5',
     designName: 'La Palma Branding & Packaging Design',
     designerName: 'Mustafa Akülker',
@@ -61,7 +61,7 @@ const imageData = [
   },
   {
     id: 6,
-    src: './src/assets/images/image6.png',
+    src: '../src/assets/images/image6.png',
     alt: 'Design 6',
     designName: 'PLASTIC',
     designerName: 'Ada Vishneva',
@@ -73,7 +73,7 @@ const imageData = [
   },
   {
     id: 7,
-    src: './src/assets/images/image7.png',
+    src: '../src/assets/images/image7.png',
     alt: 'Design 7',
     designName: 'Smoke City',
     designerName: 'Dan Gartman',
@@ -85,7 +85,7 @@ const imageData = [
   },
   {
     id: 8,
-    src: './src/assets/images/image8.png',
+    src: '../src/assets/images/image8.png',
     alt: 'Design 8',
     designName: 'Dragon',
     designerName: 'Razvan Vezeteu',
@@ -97,7 +97,7 @@ const imageData = [
   },
   {
     id: 9,
-    src: './src/assets/images/image9.png',
+    src: '../src/assets/images/image9.png',
     alt: 'Design 9',
     designName: 'Absolut Limited Edition',
     designerName: 'Simon Ålander',
@@ -109,7 +109,7 @@ const imageData = [
   },
   {
     id: 10,
-    src: './src/assets/images/image10.png',
+    src: '../src/assets/images/image10.png',
     alt: 'Design 10',
     designName: 'Halloween Icons',
     designerName: 'Elmira Gokoryan',
@@ -121,7 +121,7 @@ const imageData = [
   },
   {
     id: 11,
-    src: './src/assets/images/image11.png',
+    src: '../src/assets/images/image11.png',
     alt: 'Design 11',
     designName: 'Happy Logos | AI and crypto logos',
     designerName: 'Oleg Coada',
@@ -133,7 +133,7 @@ const imageData = [
   },
   {
     id: 12,
-    src: './src/assets/images/image12.png',
+    src: '../src/assets/images/image12.png',
     alt: 'Design 12',
     designName: 'Golf Character',
     designerName: 'Victor Korchuk for Unfold',
@@ -157,7 +157,7 @@ const imageData = [
   },
   {
     id: 14,
-    src: './src/assets/images/image14.png',
+    src: '../src/assets/images/image14.png',
     alt: 'Design 14',
     designName: 'Coaching App',
     designerName: 'Lorenzo Perniciaro',
@@ -169,7 +169,7 @@ const imageData = [
   },
   {
     id: 15,
-    src: './src/assets/images/image15.png',
+    src: '../src/assets/images/image15.png',
     alt: 'Design 15',
     designName: 'Grocery List App Concept',
     designerName: 'Isabella Martinez',
@@ -181,7 +181,7 @@ const imageData = [
   },
   {
     id: 16,
-    src: './src/assets/images/image16.png',
+    src: '../src/assets/images/image16.png',
     alt: 'Design 16',
     designName: 'Girl in sea',
     designerName: 'Ethan Taylor',
@@ -193,7 +193,7 @@ const imageData = [
   },
   {
     id: 17,
-    src: './src/assets/images/image17.png',
+    src: '../src/assets/images/image17.png',
     alt: 'Design 17',
     designName: 'GOAT Product Page',
     designerName: 'Ava Harris',
@@ -205,7 +205,7 @@ const imageData = [
   },
   {
     id: 18,
-    src: './src/assets/images/image18.png',
+    src: '../src/assets/images/image18.png',
     alt: 'Design 18',
     designName: 'The Row - Fashion Shop Ecommerce Website',
     designerName: 'Alexander Clark',
@@ -217,7 +217,7 @@ const imageData = [
   },
   {
     id: 19,
-    src: './src/assets/images/image19.png',
+    src: '../src/assets/images/image19.png',
     alt: 'Design 19',
     designName: 'Pet Store Website Design',
     designerName: 'tubix UX',
@@ -229,7 +229,7 @@ const imageData = [
   },
   {
     id: 20,
-    src: './src/assets/images/image20.png',
+    src: '../src/assets/images/image20.png',
     alt: 'Design 20',
     designName: 'Christian Dior',
     designerName: 'Benjamin Walker',
