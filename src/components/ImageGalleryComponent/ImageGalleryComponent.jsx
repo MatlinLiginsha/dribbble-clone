@@ -4,6 +4,7 @@ import { FaHeart } from "react-icons/fa";
 import { TbEyeFilled } from "react-icons/tb";
 
 const ImageGalleryComponent = ({ category, searchQuery }) => {
+  
   const [images, setImages] = useState([]);
   const [searchResults, setSearchResults] = useState([]);
   const [showNoResults, setShowNoResults] = useState(false);
