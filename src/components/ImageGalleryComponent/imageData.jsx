@@ -1,7 +1,7 @@
 const imageData = [
   {
     id: 1,
-    src: '\src\assets\images\image1.jpg',
+    src: '../../assets/images/image1.jpg',
     alt: 'Design 1',
     designName: 'Luncheonette Food Packaging Branding',
     designerName: 'Beth Mathews',
