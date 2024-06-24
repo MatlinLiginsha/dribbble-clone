@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { BsFilter } from 'react-icons/bs';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const DropdownComponent = ({ onCategoryChange }) => {
   const [activeButton, setActiveButton] = useState('Discover');
@@ -7,6 +9,7 @@ const DropdownComponent = ({ onCategoryChange }) => {
   const handleButtonClick = (buttonName) => {
     setActiveButton(buttonName);
     onCategoryChange(buttonName);
+    toast.info(`Category changed to ${buttonName}`)
   };
 
   return (

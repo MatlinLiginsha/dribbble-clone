@@ -4,6 +4,8 @@ import NavBarComponent from '../NavBarComponent/NavBarComponent';
 import DropdownComponent from '../DropdownComponent/DropdownComponent';
 import ImageGalleryComponent from '../ImageGalleryComponent/ImageGalleryComponent';
 import FooterComponent from '../FooterComponent/FooterComponent';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const HomePageComponent = () => {
   const [category, setCategory] = useState('Discover');
@@ -15,6 +17,9 @@ const HomePageComponent = () => {
 
   const handleSearch = (newSearchQuery) => {
     setSearchQuery(newSearchQuery);
+    if (newSearchQuery.trim() !== '') {
+      toast.success(`Search results for ${newSearchQuery}`);
+    }
   };
 
   return (
@@ -23,6 +28,9 @@ const HomePageComponent = () => {
       <DropdownComponent onCategoryChange={handleCategoryChange} />
       <ImageGalleryComponent category={category} searchQuery={searchQuery} />
       <FooterComponent/>
+      <ToastContainer 
+      position="bottom-right"
+      autoClose="1000"/>
     </div>
   );
 };
